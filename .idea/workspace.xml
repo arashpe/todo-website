@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4131656b-29be-46d0-b2aa-c1a3d50fa908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tasks/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tasks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tasks/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617978514260</updated>
       <workItem from="1617978516529" duration="1431000" />
-      <workItem from="1617980271031" duration="1557000" />
+      <workItem from="1617980271031" duration="8666000" />
     </task>
     <servers />
   </component>

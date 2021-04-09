@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import DailyTasks, RoutineTasks
 
-# Register your models here.
+admin.site.register(DailyTasks)
+admin.site.register(RoutineTasks)

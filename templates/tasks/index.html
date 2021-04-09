@@ -1,1 +1,44 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first page</title>
+</head>
+<body>
+<h1>Daily Tasks</h1>
+<form method="POST" action="/">
+    {% csrf_token %}
+    {{ DailyForm.title }}
+    <input type="submit" name="create daily task">
+</form>
+{% for task in DailyTasks %}
+    <div>
+        {% if task.complete == True %}
+        <strike>{{ task }}</strike>
+        {% else %}
+        <span>{{ task }}</span>
+        {% endif %}
+{#        <a href="{% url 'edit_task' task.id %}">edit</a>#}
+{#        <a href="{% url 'delete_task' task.id %}">delete</a>#}
+    </div>
+{% endfor %}
+<br>
+        <h1>Routine Tasks</h1>
+<form method="POST" action="/">
+    {% csrf_token %}
+    {{ RoutineForm.title }}
+    <input type="submit" name="create routine task">
+</form>
+{% for task in RoutineTasks %}
+    <div>
+        {% if task.complete == True %}
+        <strike>{{ task }}</strike>
+        {% else %}
+        <span>{{ task }}</span>
+        {% endif %}
+{#        <a href="{% url 'edit_task' task.id %}">edit</a>#}
+{#        <a href="{% url 'delete_task' task.id %}">delete</a>#}
+    </div>
+{% endfor %}
+</body>
+</html>
